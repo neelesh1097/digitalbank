@@ -486,6 +486,12 @@ footer button {
     gap: 8px;
   }
   .footer-end p{ margin-block: 1rem; }
+
+  /* Center feature cards on small screens */
+  .feature-card{ justify-content: center; }
+  .feature-item{ max-width: 360px; }
+  .feature-item .content{ text-align: center; }
+  .feature-item .image{ display: flex; justify-content: center; align-items: center; }
 }
 
 /* Motion reduction */
