@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+     font-family: "Outfit", sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+    padding-block: 20px;
+}
+
+/* .nav-link{
+        display: flex;
+
+    } */
+
+.ul-link {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar button {
+
+    /* align-items: center; */
+    padding: 10px 20px;
+    border-radius: 50px;
+     background: linear-gradient(to right, #31d35c, #2bb7da);
+     color: white;
+     border:none;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 80px;
+    background-color: #fafafa;
+    position: relative;
+     overflow: hidden;
+    
+
+
+}
+
+.hero-text{
+     flex: 1;
+  max-width: 600px;
+    z-index: 3;
+}
+
+.hero-text h1 {
+   font-weight: 300;
+   font-size: 50px;
+  color: #2d314d;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  color: #9698a6;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.btn {
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 12px 30px;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.hero-images{
+    position:relative;
+    flex:1;
+}
+
+.bg-shape {
+  position: absolute;
+  top: -80px;
+  right: -250px;
+  width: 800px;
+  z-index: 1;
+}
+
+.phones {
+  position: relative;
+  z-index: 2;
+   top: -120px;
+  right: -300px;
+  width: 500px;
+  
+}
+
+
+.features{
+    padding-inline: 80px;
+}
+
+.feature-header{
+    font-weight: 300;
+   font-size: 50px;
+  color: #2d314d;
+  margin-bottom: 1.5rem;
+}
+
+.feature-para{
+     color: #9698a6;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  
+}
+
+.feature-card{
+  
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+  
+    
+}
+.feature-item{
+    padding: 20px;
+      flex: 1 1 250px; 
+}
+
+
+
+.content h2{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: #9698a6;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.article{
+
+    padding-inline: 80px;
+}
+
+.article-header{
+    font-weight: 300;
+   font-size: 50px;
+  color: #2d314d;
+  margin-bottom: 1.5rem;
+}
