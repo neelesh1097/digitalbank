@@ -118,7 +118,8 @@ body{
 
 
 .features{
-    padding-inline: 80px;
+    padding-inline:80px;
+     background-color: #fafafa;
 }
 
 .feature-header{
@@ -133,20 +134,20 @@ body{
   margin-bottom: 2rem;
   line-height: 1.6;
   max-width: 600px;
-  
 }
 
 .feature-card{
-  
+
     display: flex;
-    align-items: start;
+    align-items:start;
     flex-wrap: wrap;
-  
-    
+    gap:20px;
+
 }
 .feature-item{
     padding: 20px;
-      flex: 1 1 250px; 
+      flex: 1 1 250px;
+       max-width: 300px;
 }
 
 
@@ -167,11 +168,115 @@ body{
 .article{
 
     padding-inline: 80px;
+     background-color: #fafafa;
+    
 }
 
 .article-header{
     font-weight: 300;
    font-size: 50px;
   color: #2d314d;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+
+.article-para{
+     color: #9698a6;
+  margin-bottom:1rem;
+  line-height: 1.6;
+}
+
+.artilce-header2{
+      margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.article-item img{
+  display: flex;
+ align-items: start;
+    height:220px;
+    width:300px;
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+
+.article-container{
+
+    display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+}
+
+.article-item{
+    
+    flex-direction: column;
+    align-items: center;
+     max-width: 320px;
+    flex: 1 1 250px;
+}
+
+footer{
+  background-color:hsl(233, 26%, 24%);
+  color:white;
+  padding-inline: 80px;
+}
+
+
+.footer-container{
+display: flex;
+justify-content: space-between;
+padding-block: 2rem;
+}
+
+.image2{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link{
+  display: flex;
+ gap: 30px;
+}
+
+.link1 {
+  list-style: none;
+
+}
+
+.link2 {
+  
+  list-style: none;
+
+}
+
+footer ul li{
+  margin-bottom: 20px;
+}
+
+.image1{
+  margin-top: 1rem;
+}
+
+.image2{
+  margin-top: 1rem;
+}
+
+
+footer button {
+   padding: 10px 20px;
+    border-radius: 50px;
+     background: linear-gradient(to right, #31d35c, #2bb7da);
+     color: white;
+     border:none;
+}
+
+.footer-end p {
+
+  margin-block:2rem;
 }
